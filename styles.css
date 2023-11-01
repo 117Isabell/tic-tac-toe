@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.square {
+  font-size: 80px;
+  height: 100px;
+  padding: 20px;
+  width: auto;
+  border: 1px solid #000;
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+}
